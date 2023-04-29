@@ -1,0 +1,265 @@
+body{
+    min-height:2000px;
+    margin-top:120px;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:1.4rem 7%;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:9999;
+}
+
+.navbar .nav-logo a{
+    font-size:2rem;
+    text-decoration:none;
+}
+
+.navbar .nav-logo a::before{
+    content:"⁜";
+    position: relative;
+    left:-1rem;
+}
+
+.navbar .nav-menu a{
+    padding-left:1rem;
+    text-decoration:none;
+}
+
+.navbar .nav-menu svg{
+   width:1.6rem;
+   height:1.6rem;
+}
+
+
+/* section about start */
+.about .row-about{
+    margin-left:1rem;
+}
+
+.about .row-button button{
+    position: relative;
+    left:24rem;
+    border-radius:20px;
+}
+
+.about .row-button button:hover{
+    background-color:grey;
+    color:black;
+}
+
+.about .about-con p{
+    font-size:6rem;
+    width:750px;
+    margin-left:15%;
+}
+
+.about hr{
+    border-bottom:1px solid black;
+    width:87%;
+}
+/* section about end */
+
+
+/* section new start */
+.new .new-row hr{
+    /* width:113%; */
+    border:1px solid black;
+}
+.new .new-row{
+    width:116%;
+}
+
+.new .new-row button{
+    border-radius:20px;
+    color:black;
+}
+/* section new end */
+
+/* slides start*/
+.slider{
+    transition:2s;
+}
+/* slides end */
+
+
+
+/* user start */
+.navbar .nav-logo .user-log{
+    margin-left:2rem;
+}
+.navbar .nav-logo .user-log::before{
+    content:"→";
+    position: relative;
+    left:-1rem;
+}
+
+.user-form{
+    position: relative;
+    margin-left:10%;
+}
+
+.user-form .h1user{
+    width:50%;
+    font-size:1.7rem;
+    margin-top:11rem;
+    margin-bottom:3rem;
+}
+
+.user-form .input-user{
+    border-radius:20px;
+    width:50%;
+}
+
+.user-form .input-password{
+    border-radius:20px;
+    width:50%;
+}
+
+.user-form .user-ca{
+    border-radius:20px;
+    height:40px;
+    letter-spacing:3px;
+    border:1px solid black;
+}
+
+.user-form .user-li{
+    margin-left:1.3rem;
+    border-radius:20px;
+    letter-spacing:2px;
+    height:40px;
+    border:1px solid black;
+}
+
+.user-form .user-li::after{
+    content:"→";
+}
+
+.user-form .question-user{
+    font-size:1.4rem;
+    margin-top:2rem;
+}
+/* user end */
+
+
+
+/* cart start */
+.navbar .nav-logo .cart-menu1{
+    margin-left:2rem;
+}
+.navbar .nav-logo .cart-menu::before{
+    content:"→";
+    position: relative;
+    left:2.5rem;
+}
+
+.navbar .nav-logo .cart-menu1::before{
+    left:-5rem;
+}
+
+.cart{
+    margin-left:3rem;
+}
+
+.cart h2{
+    margin-top:1rem;
+    margin-bottom:2rem;
+}
+.cart h3{
+    padding-bottom:2rem;
+    width:80%;
+}
+
+.cart .card-mix{
+    display:inline-block;
+    width:500px;
+    border-radius:20px;
+    height:300px;
+    background-color:white;
+}
+
+.cart .card-mix img{
+    width:500px;
+    border-top-right-radius:20px;
+    border-top-left-radius:20px;
+    height:200px;
+}
+
+.cart .card-mix p{
+    font-size:1.3rem;
+    color:black;
+    display:block;
+    margin-left:3rem;
+    position: relative;
+    width:40%;
+    top:1rem;
+}
+
+.cart .card-mix button{
+    position: relative;
+    left:60%;
+    border:1px solid black;
+    top:-3rem;
+    border-radius:20px;
+}
+
+.cart .card-mix span{
+    margin-left:1rem;
+}
+
+
+/* cart end */
+
+
+
+/* menu start */
+.containers{
+    position: absolute;
+    width:420px;
+    height:80vh;
+    background-color:white;
+    top:20px;
+    right:100%;
+    color:black;
+    font-size:1.4rem;
+    border-radius:20px;
+}
+
+.active{
+    right:5%;
+}
+
+.containers .nav-menu{
+    margin-left:13.5rem;
+    margin-top:1rem;
+}
+hr{
+    border:1px solid black;
+    width:92%;
+}
+
+.containers  .menu-hamburger .a-menu{
+    position: relative;
+    top:-1.5rem;
+}
+
+.containers .menu-hamburger .tos{
+    font-size:1rem;
+    color: rgb(115, 112, 112);
+    margin-left:-10rem;
+    position: relative;
+    top:1.7rem;
+}
+
+.containers .menu-hamburger .pp{
+    font-size:1rem;
+    color:rgb(115, 112, 112);
+    position: relative;
+    top:1.7rem;
+}
+/* menu end */
